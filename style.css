@@ -18,8 +18,7 @@ body {
     justify-content: space-between;
     align-items: center;
     background-color: rgb(255 255 255);
-
-    padding: 15px 20px;
+    padding: 25px 25px;
 }
 
 .logo {
@@ -39,6 +38,8 @@ body {
 .nav-end {
     display: flex;
     gap: 20px;
+    align-items: center;
+    text-align: center;
 }
 
 .nav-center a,
@@ -126,7 +127,8 @@ body {
   }
   
   .card-btn:hover {
-    background-color: #167d47;
+    background-color: #666;
+    color:azure;
   }
   
   /* Hover effect for the card */
@@ -156,8 +158,8 @@ body {
 
 /* General Footer Styling */
 .nike-footer {
-    background-color: #111;
-    color: white;
+    background-color: white;
+    color: black;
     padding: 40px 0;
     font-size: 14px;
     line-height: 1.6;
@@ -188,14 +190,14 @@ body {
 }
 
 .nike-footer .top-footer .column ul li a {
-    color: white;
+    color: black;
     text-decoration: none;
     font-size: 14px;
     transition: color 0.3s;
 }
 
 .nike-footer .top-footer .column ul li a:hover {
-    color: #1dbf73;
+    color: #333;
     /* Greenish highlight on hover */
 }
 
@@ -219,14 +221,14 @@ body {
 }
 
 .nike-footer .bottom-footer .social-icon {
-    color: white;
+    color: black;
     font-size: 18px;
     margin-left: 20px;
     transition: color 0.3s;
 }
 
 .nike-footer .bottom-footer .social-icon:hover {
-    color: #1dbf73;
+    color:#333;
     /* Greenish highlight on hover */
 }
 
